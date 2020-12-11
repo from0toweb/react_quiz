@@ -1,0 +1,19 @@
+.ActiveItem {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ActiveItem:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s;
+}
+
+.ActiveItem.success {
+    background-color: rgba(144, 236, 120, 0.527);
+}
+
+.ActiveItem.error {
+    background-color: rgba(196, 29, 29, 0.534);
+}

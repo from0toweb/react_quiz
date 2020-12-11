@@ -1,0 +1,15 @@
+export const FETCH_QUIZES_SUCCESS = 'FETCH_QUIZES_SUCCESS';
+export const FETCH_QUIZES_ERROR = 'FETCH_QUIZES_ERROR';
+export const FETCH_QUIZ_SUCCESS = 'FETCH_QUIZ_SUCCESS';
+
+export const QUIZ_SET_STATE = 'QUIZ_SET_STATE';
+export const QUIZ_FINISHED = 'QUIZ_FINISHED';
+export const QUIZ_NEXT_QUESTION = 'QUIZ_NEXT_QUESTION';
+export const QUIZ_RETRY = 'QUIZ_RETRY';
+
+export const ADD_QUESTION = 'ADD_QUESTION';
+export const CREATE_QUIZ = 'CREATE_QUIZ';
+export const RESET_QUIZ = 'RESET_QUIZ';
+
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const LOG_OUT = 'LOG_OUT';
